@@ -1,0 +1,11 @@
+#Mapping Software
+#The map is stored as a list of points, calculate and output the distance to the closest point from the point (0, 0).
+
+istDistance
+maps = [(12,4),(4,8),(288,286)]
+listDistance = []
+for points in maps:
+    a, b = points
+    distance = abs(a-b)
+    listDistance.append(distance)
+print(min(listDistance))
