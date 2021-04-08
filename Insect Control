@@ -1,0 +1,7 @@
+#Insect Control
+#Create a list which will contain 12 items, each showing the number of insects doubled in size at the beginning of that month.
+
+insects = [n*2 for n in range(13) if n != 0]
+len(insects)
+insects = [n*2 for n in range(13) if n != 0]
+len(insects)
