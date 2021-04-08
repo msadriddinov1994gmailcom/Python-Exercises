@@ -1,0 +1,10 @@
+#How Many Vowels?
+#Create a program that counts the number of vowels in the provided text.
+
+vowels = list('aeuio')
+text = 'hello I am Mike and I am 20 years old.'
+counter = 0
+for letter in text.lower():
+    if letter in vowels:
+        counter+=1
+print(counter)
