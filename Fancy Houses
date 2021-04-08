@@ -1,0 +1,14 @@
+#Fancy Houses
+#Calculate and output the number of houses that have a price that is above the average.
+
+counter
+housePrice = [122,788,456,254,732,456,124,945,632,444]
+sum = 0
+for n in housePrice:
+    sum+=n
+average = sum/len(housePrice)
+counter = 0
+for n in housePrice:
+    if n > average:
+        counter+=1
+print('The number of house whose price is above the average price is {}.'.format(counter))
