@@ -1,0 +1,15 @@
+#Average Word Length
+#Given a sentence as input, calculate and output the average word length of that sentence. To calculate the average word length, you need to divide the sum of all word lengths by the number of words in the sentence.# Average Word Length Given a sentence as input, calculate and output the average word length of that sentence. To calculate the average word length, you need to divide the sum of all word lengths by the number of words in the sentence.
+
+text = input()
+words = len(text.split(' '))
+counter = 0
+for word in text.split():
+    counter+=len(word)
+print(counter/words)
+text = input()
+words = len(text.split(' '))
+counter = 0
+for word in text.split():
+    counter+=len(word)
+print(counter/words)
