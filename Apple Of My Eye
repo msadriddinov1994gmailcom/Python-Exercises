@@ -1,0 +1,10 @@
+#Apple Of My Eye
+#Create a program that will take an eye color as input and output the percentage of people with that eye color in the room.
+
+eyecolor = input('Please enter the eye color you are looking for: ')
+room = ['black', 'brown', 'blue', 'green', 'hazel', 'brown', 'brown', 'brown', 'blue', 'blue', 'blue', 'blue', 'black', 'hazel', 'hazel']
+counter = 0
+for color in room:
+    if eyecolor == color:
+        counter+=1
+print('The {} eyes in the room is {}.'.format(eyecolor, counter))
