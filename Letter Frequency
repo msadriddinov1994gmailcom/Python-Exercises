@@ -1,0 +1,13 @@
+#Letter Frequency
+#You are making a program to analyze text. Take the text as the first input and a letter as the second input, and output the frequency of that letter in the text as a whole percentage.
+
+text = input('Please enter the text: ')
+letter = input('Please enter the letter: ')
+replaced = text.replace(' ', '')
+counter = replaced.count(letter)
+print(int((counter/len(replaced))*100))
+text = input('Please enter the text: ')
+letter = input('Please enter the letter: ')
+replaced = text.replace(' ', '')
+counter = replaced.count(letter)
+print(int((counter/len(replaced))*100))
