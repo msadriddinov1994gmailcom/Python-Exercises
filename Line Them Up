@@ -1,0 +1,13 @@
+#Line Them Up
+#Output each letter of the string on a new line, repeated N times.
+
+text = 'Today I am very motivated and I am studying hard to accomplish more.'
+breakers = list(' .!,:;')
+for letter in text:
+    if letter not in breakers:
+        print(letter+'\n')
+text = 'Today I am very motivated and I am studying hard to accomplish more.'
+breakers = list(' .!,:;')
+for letter in text:
+    if letter not in breakers:
+        print(letter+'\n')
