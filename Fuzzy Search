@@ -1,0 +1,8 @@
+#Fuzzy Search
+#You need to implement search function for a phonebook.
+
+Mark Feger
+phonebook = {'Mark Feg': 6152443045, 'Adam Lay': 2702260450}
+name = (input('Please enter the name you are looking for: '))
+result = phonebook.get(name)
+print('Here is '+name+'\'s phone number: '+str(result))
