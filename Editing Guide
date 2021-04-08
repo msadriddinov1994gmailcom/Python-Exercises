@@ -1,0 +1,10 @@
+#Editing Guide
+#Create a text editing program by implementing a find/replace functionality.
+
+new
+text = 'This program is a part of my today\'s accomplishment. \nI am very happy to study Python programming langauge. \nI hope I will learn a lot in this course.'
+print(text)
+old = input('Please enter the word you want to replace: ')
+new = input('Please enter a new word you want to change: ')
+replaced = text.replace(old, new)
+print(replaced)
