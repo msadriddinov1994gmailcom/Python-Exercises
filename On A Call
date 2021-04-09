@@ -1,0 +1,15 @@
+#On A Call
+#In order to make a call center application dequeue all added customers and then calculate and output the total time required to handle all calls.
+
+time = int(input('Please enter time how much eas call takes: '))
+class callQueue:
+    def __init__(self):
+        self.calls = []
+    def enqueue(self, call):
+        self.calls.insert(0, call)
+    def dequeue(self):
+        return self.calls.pop()
+    def print_time(self, time):
+        print(len(calls)*time)
+    def print_calls(self):
+        print(calls)
