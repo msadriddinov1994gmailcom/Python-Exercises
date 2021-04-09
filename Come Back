@@ -1,0 +1,8 @@
+#Come Back
+#Make a back button so that it pops the top link from the stack and navigates to it.
+
+class back_buttom:
+    def __init__(self):
+        self.links = []
+    def back(self):
+        return self.links.pop(0)
