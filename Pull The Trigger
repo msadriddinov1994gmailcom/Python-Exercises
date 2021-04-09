@@ -1,0 +1,14 @@
+#Pull The Trigger
+#Create a program that will take 4 action results as input by calculating and outputting the remaining points of the player, based on their shots.
+
+action = ''
+n = 0
+score = 100
+while n<4:
+    action = input('')
+    if action == 'hit':
+        score+=10
+    elif action == 'miss':
+        score-=20
+    n+=1
+print(score)
