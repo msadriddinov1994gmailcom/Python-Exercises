@@ -1,0 +1,12 @@
+#List Comprehensions
+#Given a word as input, output a list, containing only the letters of the word that are not vowels. The vowels are a, e, i, o, u.
+
+lst
+word = input()
+lst = []
+v = list('aeiou')
+​
+for w in word:
+    if w not in v:
+        lst.append(w)
+print(lst)
