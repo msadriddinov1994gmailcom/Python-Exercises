@@ -1,0 +1,16 @@
+#Classes
+#Given a Rectangle class, create a program to take two integer numbers as input, assign them as the width and height of a Rectangle object and output the volume of the resulting rectangle.
+class Rectangle:
+class Rectangle:
+    def __init__(self, width, height):
+        self.w = width
+        self.h = height
+    def vol(self):
+       return self.w*self.h
+       
+        
+w = int(input())
+h = int(input())
+
+obj = Rectangle(w, h)
+print(obj.vol())
