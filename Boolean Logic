@@ -1,0 +1,16 @@
+#Boolean Logic
+#You need to create a program that outputs whether a store is Open or Closed, based on the hour and the day of the week.
+#The store is open on all days from 10 to 21, except Saturday and Sunday.
+#You need to take the hour and the day of the week as input.
+#The day of the week is represented as an integer (1 for Monday, 2 for Tuesday, etc.)
+
+hour = int(input())
+day = int(input())
+# your code goes here
+if day <6:
+    if hour >= 10 and hour<=21:
+        print('Open')
+    else:
+        print('Closed')
+else:
+    print('Closed')
