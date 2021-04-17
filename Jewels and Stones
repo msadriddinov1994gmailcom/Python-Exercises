@@ -1,0 +1,8 @@
+class Solution:
+    def numJewelsInStones(self, jewels: str, stones: str) -> int:
+        total = 0
+        for x in jewels:
+            for y in stones:
+                if x == y:
+                    total+=1
+        return total
