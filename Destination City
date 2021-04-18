@@ -1,0 +1,10 @@
+class Solution:
+    def destCity(self, paths: List[List[str]]) -> str:
+        res = ''
+        f = [x[0] for x in paths]
+        t = [x[1] for x in paths]
+        for n in t:
+            if n not in f:
+                res = n
+        return res
+            
