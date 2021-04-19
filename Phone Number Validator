@@ -1,0 +1,7 @@
+import re
+text = input('')
+pattern = r'^[1|8|9][\d]{7}$'
+if re.match(pattern, text):
+    print('Valid')
+else:
+    print('Invalid')
