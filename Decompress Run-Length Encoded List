@@ -1,0 +1,18 @@
+class Solution:
+    def decompressRLElist(self, nums: List[int]) -> List[int]:
+        freq = 0
+        val = 0
+        out = []
+        tem = []
+        
+        for i in range(0, len(nums), 2):
+            if (i+1)<len(nums):
+                tem.append(nums[i])
+                tem.append(nums[i+1])
+            freq = tem[0]
+            val = tem[1]
+            
+            for j in range(0, freq):
+                out.append(val)
+            tem = []
+        return out
