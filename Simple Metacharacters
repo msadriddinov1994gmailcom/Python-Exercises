@@ -1,0 +1,8 @@
+import re
+
+word = input()
+match = '^m..e$'
+if re.match(match, word):
+    print('Match')
+else:
+    print('No match')
