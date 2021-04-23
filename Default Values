@@ -1,0 +1,7 @@
+def book(people, days, breakfast='Egg Sandwiches'):
+	print("People:", people)
+	print("Days:", days)
+	print("Breakfast:", breakfast)
+
+book(5,3, "Peanut Butter Bites")
+book(4,5)
